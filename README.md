@@ -21,29 +21,29 @@ This course does not require from the participants prior detailed knowledge of a
 
 **Schedule** 
 
-Day 1 (Tuesday, Jan 17, 2023) 
+<u>Day 1 (Tuesday, Jan 17, 2023)</u> 
 
-​	11am-12:30 Your first steps with Julia 
+​	11am-12:30 	Your first steps with Julia 
 
-​	1pm-3pm Working with tabular data 
+​	1pm-3pm 		Working with tabular data 
 
-Day 2 (Wednesday, Jan 18, 2023) 
+<u>Day 2 (Wednesday, Jan 18, 2023)</u> 
 
-​	11am-12:30 Classical predictive models 
+​	11am-12:30 	Classical predictive models 
 
-​	1pm-3pm Advanced predictive models using machine learning 
+​	1pm-3pm 		Advanced predictive models using machine learning 
 
-Day 3 (Thursday, Jan 19, 2023) 
+<u>Day 3 (Thursday, Jan 19, 2023)</u> 
 
-​	11am-12:30 Solving optimization problems 
+​	11am-12:30 	Solving optimization problems 
 
-​	1pm-3pm Mining complex networks 
+​	1pm-3pm 		Mining complex networks 
 
-Day 4 (Friday, Jan 20, 2023)
+<u>Day 4 (Friday, Jan 20, 2023)</u>
 
-​	11am-12:30 Deployment in production environments
+​	11am-12:30 	Deployment in production environments
 
-​	1pm-3pm Scaling computations using parallel computing 
+​	1pm-3pm 		Scaling computations using parallel computing 
 
 
 
