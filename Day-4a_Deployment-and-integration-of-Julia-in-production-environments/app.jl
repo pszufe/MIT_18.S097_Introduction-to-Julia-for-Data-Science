@@ -3,6 +3,7 @@ using Flux
 using BSON: @load
 using DataFrames
 using LinearAlgebra
+using GLM
 
 
 @load "nn_model.bson" model

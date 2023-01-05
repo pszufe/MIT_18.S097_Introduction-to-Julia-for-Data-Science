@@ -2,6 +2,7 @@ using Genie, Genie.Requests, Genie.Renderer.Json
 using BSON: @load
 using DataFrames
 using LinearAlgebra
+using GLM
 
 @load "reg.bson" reg
 
