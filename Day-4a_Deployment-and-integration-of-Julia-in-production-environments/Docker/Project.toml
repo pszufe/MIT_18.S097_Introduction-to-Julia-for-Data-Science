@@ -1,0 +1,11 @@
+name = "Docker"
+uuid = "a62d8868-1081-473d-96af-29468b94a302"
+authors = ["sebkaz <seba@sebastianzajac.pl>"]
+version = "0.1.0"
+
+[deps]
+BSON = "fbb218c0-5317-5bc6-957e-2ee96dd4b1f0"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+GLM = "38e38edf-8417-5370-95a0-9cbb8c7f171a"
+Genie = "c43c736e-a2d1-11e8-161f-af95117fbd1e"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
