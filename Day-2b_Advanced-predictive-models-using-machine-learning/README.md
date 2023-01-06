@@ -1,6 +1,6 @@
 # Introduction to Julia for Data Science
-## Advanced predictive models using Machine Learning (13:00-15:00)
-Day 2 (Wednesday, Jan 18, 2023)
+## Advanced predictive models using Machine Learning
+Day 2 (Wednesday, Jan 18, 2023, 13:00 – 15:00)
 
 ### Teaching objectives:
 - Student will understand the Machine Learning engineering process.
@@ -10,7 +10,7 @@ Day 2 (Wednesday, Jan 18, 2023)
 - Student will learn how to train and evaluate ML model with desired metrics.
 - Student will learn how to perform cross-validation for a ML model.
 
-### Agenda (13:00 – 15:00)
+### Agenda
 1. Understanding Machine Learning model lifecycle.
 2. Introducing MLJ.
 3. Loading tabular data.
