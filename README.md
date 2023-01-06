@@ -22,30 +22,16 @@ Installation instructions can be found in [materials for the day 1](Day-1a_Your-
 
 **Schedule** 
 
-
-|-----------------------------------|------------|-----------------------------|
-| **Day 1 (Tuesday, Jan 17, 2023)** | 11am-12:30 | Your first steps with Julia |
-|                                   | 1pm-3pm    | Working with tabular data   |
-
-
-<u>Day 2 (Wednesday, Jan 18, 2023)</u> 
-
-	11am-12:30 	Classical predictive models 
-
-	1pm-3pm 		Advanced predictive models using machine learning 
-
-<u>Day 3 (Thursday, Jan 19, 2023)</u> 
-
-	11am-12:30 	Solving optimization problems 
-
-	1pm-3pm 		Mining complex networks 
-
-<u>Day 4 (Friday, Jan 20, 2023)</u>
-
-	11am-12:30 	Deployment in production environments
-
-	1pm-3pm 		Scaling computations using parallel computing 
-
+<table>
+<tr><td><b>Day 1 (Tuesday, Jan 17, 2023)</b></td><td>11am-12:30</td><td>Your first steps with Julia</td></tr>
+<tr><td>&nbsp;</td><td>1pm-3pm</td><td>Working with tabular data</td></tr>
+<tr><td><b>Day 2 (Tuesday, Jan 18, 2023)</b></td><td>11am-12:30</td><td>Classical predictive models</td></tr>
+<tr><td>&nbsp;</td><td>1pm-3pm</td><td>Advanced predictive models using machine learning</td></tr>
+<tr><td><b>Day 3 (Tuesday, Jan 19, 2023)</b></td><td>11am-12:30</td><td>Solving optimization problems </td></tr>
+<tr><td>&nbsp;</td><td>1pm-3pm</td><td>Mining complex networks</td></tr>
+<tr><td><b>Day 4 (Tuesday, Jan 20, 2023)</b></td><td>11am-12:30</td><td>Deployment in production environments</td></tr>
+<tr><td>&nbsp;</td><td>1pm-3pm</td><td>Scaling computations using parallel computing</td></tr>
+</table>
 
 This course has been supported by the Polish  National Agency for Academic Exchange under  the Strategic Partnerships programme, grant  number BPI/PST/2021/1/00069/U/00001. 
 
