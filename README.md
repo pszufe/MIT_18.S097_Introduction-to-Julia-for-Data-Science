@@ -22,11 +22,11 @@ Installation instructions can be found in [materials for the day 1](Day-1a_Your-
 
 **Schedule** 
 
-<u>Day 1 (Tuesday, Jan 17, 2023)</u> 
 
-		11am-12:30 	Your first steps with Julia 
+|-----------------------------------|------------|-----------------------------|
+| **Day 1 (Tuesday, Jan 17, 2023)** | 11am-12:30 | Your first steps with Julia |
+|                                   | 1pm-3pm    | Working with tabular data   |
 
-		1pm-3pm 		Working with tabular data 
 
 <u>Day 2 (Wednesday, Jan 18, 2023)</u> 
 
