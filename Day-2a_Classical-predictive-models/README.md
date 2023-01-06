@@ -1,5 +1,5 @@
 # Introduction to Julia for Data Science
-## Classical predictive models (11:00-12:30)
+## Classical predictive models (11:00 – 12:30)
 Day 2 (Wednesday, Jan 18, 2023)
 
 ### Teaching objectives:
@@ -8,7 +8,7 @@ Day 2 (Wednesday, Jan 18, 2023)
 - Student will know the basic statistical properties of Ordinary Least Square and be able to demonstrate them in Monte Carlo simulations in Julia
 - Student will be acquainted with omitted variable problem and its consequences. 
 
-### Agenda (11:00 – 12:30)
+### Agenda
 1. Theoretical foundations of linear regression model:
     - a. Data Generating Process for Linear Regression Model,
     - b.	Ordinary Least Square estimator and its properties,
