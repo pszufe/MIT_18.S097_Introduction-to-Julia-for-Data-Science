@@ -9,12 +9,12 @@ Day 2 (Wednesday, Jan 18, 2023)
 - Student will be acquainted with omitted variable problem and its consequences. 
 
 ### Agenda (11:00 – 12:30)
-1. Theoretical foundations of linear regression model (ca. 15 min):
+1. Theoretical foundations of linear regression model:
     - a. Data Generating Process for Linear Regression Model,
     - b.	Ordinary Least Square estimator and its properties,
     - c.	Interpretation of coefficients and standard errors, p-values for statistical significance testing, as well as R-Squared,
     - d.	Consequence of omitted correlated variable problem. 
-2. Practical verification of Ordinary Least Squares properties using simulations in Julia (ca. 75 min.):
+2. Practical verification of Ordinary Least Squares properties using simulations in Julia:
     - a.	Synthetic data simulation according to linear regression (LR) Data Generating Process,
     - b.	Visualization of simulated data,
     - c.	Linear Regression estimation using Ordinary Least Squares (OLS),
