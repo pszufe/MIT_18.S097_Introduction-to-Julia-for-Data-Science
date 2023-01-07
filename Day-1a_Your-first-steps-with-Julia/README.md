@@ -30,7 +30,7 @@ Julia is a new Open Source language designed for science and data analysis. With
         ```
         using Pkg
         pkg"activate ."
-        pkg"instatiate"
+        pkg"instantiate"
         using Conda
         Conda.runconda(`install jupyter --yes`) 
         ```
