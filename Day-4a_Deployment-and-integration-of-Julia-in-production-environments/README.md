@@ -1,4 +1,8 @@
-TODO: provide few sentences with description of the module 
+# 
+
+# Introduction to Julia for Data Science
+## Deployment and integration of Julia in production environments
+Day 4 (Tuesday, Jan 20, 2023, ) 11.00-12:30
 
 **Literature**
 
