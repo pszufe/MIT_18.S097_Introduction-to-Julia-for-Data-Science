@@ -10,7 +10,7 @@ Julia is a new Open Source language designed for science and data analysis. With
 
 **Installation instructions**
 
-1. Please download Julia from https://julialang.org/downloads/oldreleases/ and follow the installation instructions presented at https://julialang.org/downloads/platform/. During the workshop we will be using the Stable Release **v1.8.3**. The 64-bit version is recommended. (Note that there is a bug in installer of the latest 1.8.4 version and hence we do not recommend using it and hence advise you). For convenience here are the direct download links for Julia 1.8.3:
+1. Please download Julia from https://julialang.org/downloads/oldreleases/ and follow the installation instructions presented at https://julialang.org/downloads/platform/. During the workshop we will be using the Stable Release **v1.8.3**. The 64-bit version is recommended. (Note that there is a problem with installer of the latest 1.8.4 version of Julia on Windows which might cause problems with package installation in some cases). For convenience here are the direct download links for Julia 1.8.3:
     * [Linux (glibc)](https://julialang-s3.julialang.org/bin/linux/x64/1.9/julia-1.9.0-alpha1-linux-x86_64.tar.gz) version x86_64
     * [macOS](https://julialang-s3.julialang.org/bin/mac/x64/1.9/julia-1.9.0-alpha1-mac64.dmg) version x86_64
     * [Windows](https://julialang-s3.julialang.org/bin/winnt/x64/1.9/julia-1.9.0-alpha1-win64.exe) version x86_64
@@ -37,7 +37,7 @@ Julia is a new Open Source language designed for science and data analysis. With
 
 4. The recommended programming environment for the Julia language is Visual Studio Code (https://code.visualstudio.com/) with Julia extension. Please follow the steps below:
 
-    a)   Download and install VS Code (available at https://code.visualstudio.com/download/)
+    a) Download and install VS Code (available at https://code.visualstudio.com/download/)
 
     b) Start VS Code, click View->Command Palette...  and type `View: Show Extensions` to go to the extension manager
 
@@ -45,25 +45,24 @@ Julia is a new Open Source language designed for science and data analysis. With
 
     d) On the top of the extension list you should see “Julia Language Support” – click *Install* to install the extension.
 
-
-If you run into any installation problem, more detailed instructions can be found in https://github.com/julia-vscode/julia-vscode#getting-started 
+    If you run into any installation problem, more detailed instructions can be found in https://github.com/julia-vscode/julia-vscode#getting-started 
 
 
 5. During the workshop will be mostly working with Julia within Jupyter notebook (this can be also used instead of VS Code)
 
-In order to be able to run Julia inside a Jupyter notebook start the Julia console and run the two following commands:
+    To run Julia inside a Jupyter notebook start the Julia console and run the two following commands:
     ```
     using IJulia
     notebook(dir=pwd())
     ```
-After running the above commands a new web browser tab should open with Jupyter Notebook.
+    After running the above commands a new web browser tab should open with Jupyter Notebook.
 
 
 
 **Literature**
 
-1. Julia Language Manual - https://docs.julialang.org/en/v1/ 
+1. Julia Language Manual, https://docs.julialang.org/en/v1/ 
 
 2. The Julia Express - A concise Julia language introductory manual for programmers, https://github.com/bkamins/The-Julia-Express/ 
 
-3. B. Kaminski,  "Julia for Data Analysis", Manning, 2022
+3. B. Kaminski: Julia for Data Analysis, Manning, 2023, https://www.manning.com/books/julia-for-data-analysis
