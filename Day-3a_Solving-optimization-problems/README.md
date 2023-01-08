@@ -1,1 +1,1 @@
-TODO: provide few sentences with description of the module 
+In this tutorial we will show how to run 
