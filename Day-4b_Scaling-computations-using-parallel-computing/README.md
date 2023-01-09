@@ -10,4 +10,4 @@ using IJulia
 notebook(dir=".")
 ```
 
-Note that the variable needs to be set before launching the notebook (it is not possible to update the thread number in a running system)
+Note that the variable needs to be set before launching the notebook (it is not possible to update the thread number in a running Julia process)
