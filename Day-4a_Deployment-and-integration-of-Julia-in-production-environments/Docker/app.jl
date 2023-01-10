@@ -4,12 +4,12 @@ using DataFrames
 using LinearAlgebra
 using GLM
 
-@load "reg.bson" reg
+@load "reg.bson" linear_model
 
 route("/") do
 """<div style="white-space:pre">To receive a prediction for GLM linear model send POST request with JSON payload.
 
-First row:
+Example row:
 {
     "crim": 0.00632,
     "tax": 296.0,
@@ -31,12 +31,11 @@ end
 route("/", method = POST) do
     input_data = jsonpayload()
     try
-        (":input" => input_data,":prediction" => predict(reg, DataFrame(input_data))) |> Json.json
+        (":input" => input_data,":prediction" => predict(linear_model, DataFrame(input_data))) |> Json.json
     catch e
         (:error => "Ooops! There was a problem while generating a prediction.") |> Json.json
     end
 end
 
 
-#start the server - it will not block the Jupyter due to async=true
 up(port=8000, async=false)
