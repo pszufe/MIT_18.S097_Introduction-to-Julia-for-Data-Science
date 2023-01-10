@@ -7,7 +7,7 @@ COPY . /home/app
 
 
 # Prepare Julia env
-RUN julia -e "using Pkg; Pkg.activate("."); Pkg.instantiate(); Pkg.precompile(); "
+RUN julia -e "using Pkg; Pkg.activate(\".\"); Pkg.instantiate(); Pkg.precompile(); "
 
 # ports
 EXPOSE 8000

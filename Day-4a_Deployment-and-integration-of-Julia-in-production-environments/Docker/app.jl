@@ -4,7 +4,7 @@ using DataFrames
 using LinearAlgebra
 using GLM
 
-@load "reg.bson" linear_model
+@load "linear_regression.bson" linear_model
 
 route("/") do
 """<div style="white-space:pre">To receive a prediction for GLM linear model send POST request with JSON payload.
