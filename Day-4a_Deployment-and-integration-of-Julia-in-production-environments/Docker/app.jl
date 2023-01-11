@@ -6,6 +6,8 @@ using GLM
 
 @load "linear_regression.bson" linear_model
 
+Genie.config.run_as_server = true
+
 route("/") do
 """<div style="white-space:pre">To receive a prediction for GLM linear model send POST request with JSON payload.
 
@@ -28,14 +30,14 @@ Example row:
     
 end
 
-route("/", method = POST) do
-    input_data = jsonpayload()
-    try
-        (":input" => input_data,":prediction" => predict(linear_model, DataFrame(input_data))) |> Json.json
-    catch e
-        (:error => "Ooops! There was a problem while generating a prediction.") |> Json.json
-    end
-end
+# route("/", method = POST) do
+#     input_data = jsonpayload()
+#     try
+#         (":input" => input_data,":prediction" => predict(linear_model, DataFrame(input_data))) |> Json.json
+#     catch e
+#         (:error => "Ooops! There was a problem while generating a prediction.") |> Json.json
+#     end
+# end
 
 
-up(port=8000, async=false)
+up(port=5050, host="0.0.0.0")

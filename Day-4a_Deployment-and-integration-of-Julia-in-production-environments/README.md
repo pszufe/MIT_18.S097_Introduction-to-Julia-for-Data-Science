@@ -1,5 +1,3 @@
-# 
-
 # Introduction to Julia for Data Science
 
 ## Deployment and integration of Julia in production environments
