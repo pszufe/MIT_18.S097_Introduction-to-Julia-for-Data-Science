@@ -1,15 +1,15 @@
-# pull latest julia image
-FROM julia:latest
+# pull julia image
+FROM julia:1.8.3
 
 # set up the app
 WORKDIR /home/app
 COPY . /home/app
 
-# instantiate Julia packages
+
+# Prepare Julia env
 RUN julia -e "using Pkg; Pkg.activate(\".\"); Pkg.instantiate(); Pkg.precompile(); "
 
 # ports
 EXPOSE 8000
-
-# or maybe include a Julia file
-CMD julia -e 'using Pkg; Pkg.activate("."); include("regression.jl"); '
+# run julia app
+CMD julia -e 'using Pkg; Pkg.activate("."); include("app.jl"); '
