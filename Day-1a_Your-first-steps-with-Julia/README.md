@@ -10,10 +10,10 @@ Julia is a new Open Source language designed for science and data analysis. With
 
 **Installation instructions**
 
-1. Please download Julia from https://julialang.org/downloads/oldreleases/ and follow the installation instructions presented at https://julialang.org/downloads/platform/. During the workshop we will be using the Stable Release **v1.8.3**. The 64-bit version is recommended. (Note that there is a problem with installer of the latest 1.8.4 version of Julia on Windows which might cause problems with package installation in some cases). For convenience here are the direct download links for Julia 1.8.3:
-    * [Linux (glibc)](https://julialang-s3.julialang.org/bin/linux/x64/1.9/julia-1.9.0-alpha1-linux-x86_64.tar.gz) version x86_64
-    * [macOS](https://julialang-s3.julialang.org/bin/mac/x64/1.9/julia-1.9.0-alpha1-mac64.dmg) version x86_64
-    * [Windows](https://julialang-s3.julialang.org/bin/winnt/x64/1.9/julia-1.9.0-alpha1-win64.exe) version x86_64
+1. Please download Julia from [https://julialang.org/downloads/](https://julialang.org/downloads/) and follow the installation instructions presented at https://julialang.org/downloads/platform/. During the workshop we will be using the Stable Release **v1.8.5**. The 64-bit version is recommended. (Note that there is a problem with installer of the latest 1.8.4 version of Julia on Windows which might cause problems with package installation in some cases). For convenience here are the direct download links for Julia 1.8.5:
+    * [Linux (glibc)](https://julialang-s3.julialang.org/bin/linux/x64/1.8/julia-1.8.5-linux-x86_64.tar.gz) version x86_64
+    * [macOS](https://julialang-s3.julialang.org/bin/mac/x64/1.8/julia-1.8.5-mac64.dmg) version x86_64
+    * [Windows](https://julialang-s3.julialang.org/bin/winnt/x64/1.8/julia-1.8.5-win64.exe) version x86_64
 	
 2. Install Julia packages that will be used throughout the workshop. Once Julia is installed please follow the steps:
 
