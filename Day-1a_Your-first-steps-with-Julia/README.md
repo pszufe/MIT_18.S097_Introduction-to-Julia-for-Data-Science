@@ -33,6 +33,8 @@ Julia is a new Open Source language designed for science and data analysis. With
         pkg"instantiate"
         using Conda
         Conda.runconda(`install jupyter --yes`) 
+		Conda.runconda(`install matplotlib --yes`) 
+
         ```
 
 4. The recommended programming environment for the Julia language is Visual Studio Code (https://code.visualstudio.com/) with Julia extension. Please follow the steps below:
