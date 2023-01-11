@@ -33,7 +33,7 @@ Julia is a new Open Source language designed for science and data analysis. With
         pkg"instantiate"
         using Conda
         Conda.runconda(`install jupyter --yes`) 
-		Conda.runconda(`install matplotlib --yes`) 
+        Conda.runconda(`install matplotlib --yes`) 
 
         ```
 
@@ -52,10 +52,12 @@ Julia is a new Open Source language designed for science and data analysis. With
 
 5. During the workshop will be mostly working with Julia within Jupyter notebook (this can be also used instead of VS Code)
 
-    To run Julia inside a Jupyter notebook start the Julia console and run the two following commands:
+    To run Julia inside a Jupyter notebook start the Julia console (this assumes that the console is run in the main folder of this repository) and run the two following commands:
     ```
+    using Pkg
+    Pkg.activate(".")
     using IJulia
-    notebook(dir=pwd())
+    notebook(dir=".")
     ```
     After running the above commands a new web browser tab should open with Jupyter Notebook.
 

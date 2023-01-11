@@ -20,6 +20,15 @@ This course does not require from the participants prior detailed knowledge of a
 **Installation instructions**
 Installation instructions can be found in [materials for the day 1](Day-1a_Your-first-steps-with-Julia/)
 
+Once installed the code can be run as
+```
+using Pkg
+Pkg.activate(".") # assumes running the code in the main folder of this repository
+using IJulia
+notebook(dir=".")
+```
+
+
 **Schedule** 
 
 <table>
