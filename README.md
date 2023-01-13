@@ -8,6 +8,8 @@ MIT_18.S097
 **Room:** This class will meet in 2-131.
 
 
+This course will also be streamed freely live online via MS Teams for participants outside of Boston. If you want to get a link to the stream drop us your email address at: https://forms.gle/JZYU6p2P6D7YCyUF6
+
 
 Data analysis has become one of the core processes in virtually any professional activity. The collection of data becomes easier and less expensive, so we have ample access to it.
 
