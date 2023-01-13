@@ -29,7 +29,7 @@ notebook(dir=".")
 ```
 
 
-**Schedule** 
+**Schedule** (all times are EST time zone)
 
 <table>
 <tr><td><b>Day 1 (Tuesday, Jan 17, 2023)</b></td><td>11am-12:30</td><td>Your first steps with Julia</td></tr>
