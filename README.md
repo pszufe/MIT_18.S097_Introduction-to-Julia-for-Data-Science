@@ -36,11 +36,11 @@ notebook(dir=".")
 <table>
 <tr><td><b>Day 1 (Tuesday, Jan 17, 2023)</b></td><td>11am-12:30</td><td>Your first steps with Julia</td></tr>
 <tr><td>&nbsp;</td><td>1pm-3pm</td><td>Working with tabular data</td></tr>
-<tr><td><b>Day 2 (Tuesday, Jan 18, 2023)</b></td><td>11am-12:30</td><td>Classical predictive models</td></tr>
+<tr><td><b>Day 2 (Wednesday, Jan 18, 2023)</b></td><td>11am-12:30</td><td>Classical predictive models</td></tr>
 <tr><td>&nbsp;</td><td>1pm-3pm</td><td>Advanced predictive models using machine learning</td></tr>
-<tr><td><b>Day 3 (Tuesday, Jan 19, 2023)</b></td><td>11am-12:30</td><td>Solving optimization problems </td></tr>
+<tr><td><b>Day 3 (Thursday, Jan 19, 2023)</b></td><td>11am-12:30</td><td>Solving optimization problems </td></tr>
 <tr><td>&nbsp;</td><td>1pm-3pm</td><td>Mining complex networks</td></tr>
-<tr><td><b>Day 4 (Tuesday, Jan 20, 2023)</b></td><td>11am-12:30</td><td>Deployment in production environments</td></tr>
+<tr><td><b>Day 4 (Friday, Jan 20, 2023)</b></td><td>11am-12:30</td><td>Deployment in production environments</td></tr>
 <tr><td>&nbsp;</td><td>1pm-3pm</td><td>Scaling computations using parallel computing</td></tr>
 </table>
 
