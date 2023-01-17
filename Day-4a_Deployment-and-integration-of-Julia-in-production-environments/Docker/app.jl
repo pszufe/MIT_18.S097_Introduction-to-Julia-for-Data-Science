@@ -1,12 +1,23 @@
-using Genie, Genie.Requests, Genie.Renderer.Json
+using Genie
+using Genie.Requests, Genie.Renderer.Json
 using BSON: @load
+using GLM
 using DataFrames
 using LinearAlgebra
-using GLM
+using MLJ
 
-@load "linear_regression.bson" linear_model
+Genie.Configuration.config!(
+  server_port                     = 8000,
+  server_host                     = "0.0.0.0",
+  app_env                         = "prod"
+)
 
-Genie.config.run_as_server = true
+# println(Genie.Configuration.env())
+
+# load pipeline transformations and model
+pip = machine("preprocessing.mlj")
+restore!(pip)
+@load "linear_model.bson" linear_model
 
 route("/") do
 """<div style="white-space:pre">To receive a prediction for GLM linear model send POST request with JSON payload.
@@ -30,14 +41,16 @@ Example row:
     
 end
 
-# route("/", method = POST) do
-#     input_data = jsonpayload()
-#     try
-#         (":input" => input_data,":prediction" => predict(linear_model, DataFrame(input_data))) |> Json.json
-#     catch e
-#         (:error => "Ooops! There was a problem while generating a prediction.") |> Json.json
-#     end
-# end
+route("/", method = POST) do
+    input_data = jsonpayload()
+    println(input_data)
+     try
+         pre_data = MLJ.transform(pip, DataFrame(input_data))
+         (":input" => input_data, ":prediction" => GLM.predict(linear_model, pre_data)) |> Json.json
+     catch e
+         (:error => "Ooops! There was a problem while generating a prediction.") |> Json.json
+     end
+end
 
 
-up(port=5050, host="0.0.0.0")
+up(host="0.0.0.0", async=false)
