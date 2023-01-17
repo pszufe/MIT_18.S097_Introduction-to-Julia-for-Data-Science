@@ -46,6 +46,7 @@ notebook(dir=".")
 
 
 **Grading**
+
 You can register for this course for credit. The contact point regarding the registration process is Professor Alan
 Edelman, Julia Lab Research Group Leader. The evaluation of the course will be based on assessment of a homework that will be distributed during the last
 day of the course and should be sent back to Przemysław Szufel (pszufe@sgh.waw.pl) no later than after one
