@@ -4,11 +4,16 @@
 Day 4 (Tuesday, Jan 20, 2023, ) 11.00-12:30
 
 
-### Teaching objectives:
-- Student will understand TBA
-
 ### Agenda
-1. TBA
+
+1. Load data for modeling
+2. Take standarization of the data and save this operation as a pipeline in file
+3. Prepare Linear Model and Neural Network for prepared data and save model as a BSON file. 
+4. Prepare simple Web Server application with GET requests
+5. Client codes for web server in Julia and Python
+6. Web Server with pipeline and linear model for POST kind requests
+
+2. Deploy Julia code for ML model on production environments with Docker environment. 
     
 ### Instructors:
 - Sebastian Zając
