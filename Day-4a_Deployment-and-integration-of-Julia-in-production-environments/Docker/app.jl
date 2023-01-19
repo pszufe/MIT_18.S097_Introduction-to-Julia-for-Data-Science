@@ -43,7 +43,6 @@ end
 
 route("/", method = POST) do
     input_data = jsonpayload()
-    println(input_data)
      try
          pre_data = MLJ.transform(pip, DataFrame(input_data))
          (":input" => input_data, ":prediction" => GLM.predict(linear_model, pre_data)) |> Json.json

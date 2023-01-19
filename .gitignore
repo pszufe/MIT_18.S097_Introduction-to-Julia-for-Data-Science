@@ -25,3 +25,4 @@ docs/site/
 *.DS_Store*
 */.ipynb_checkpoints/MLDeployment-checkpoint.ipynb
 *./.ipynb_checkpoints/
+.ipynb_checkpoints
