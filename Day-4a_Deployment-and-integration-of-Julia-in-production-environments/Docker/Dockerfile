@@ -6,10 +6,14 @@ WORKDIR /home/app
 
 # copy julia env files
 COPY Project.toml  Manifest.toml  /home/app
+
 # copy model and preprocessing
 COPY preprocessing.mlj linear_model.bson /home/app
+
 # copy application and model files
 COPY app.jl /home/app
+
+# COPY . /home/app
 
 # Create and prepare Julia env
 RUN julia -e 'using Pkg; Pkg.activate("."); Pkg.instantiate();'
