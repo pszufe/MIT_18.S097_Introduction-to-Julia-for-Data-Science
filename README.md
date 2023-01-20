@@ -44,6 +44,14 @@ notebook(dir=".")
 <tr><td>&nbsp;</td><td>1pm-3pm</td><td>Scaling computations using parallel computing</td></tr>
 </table>
 
+
+**Grading**
+
+You can register for this course for credit. The contact point regarding the registration process is Professor Alan
+Edelman, Julia Lab Research Group Leader. The evaluation of the course will be based on assessment of a homework that will be distributed during the last
+day of the course and should be sent back to Przemysław Szufel (pszufe@sgh.waw.pl) no later than after one
+week.
+
 This course has been supported by the Polish  National Agency for Academic Exchange under  the Strategic Partnerships programme, grant  number BPI/PST/2021/1/00069/U/00001. 
 
 
