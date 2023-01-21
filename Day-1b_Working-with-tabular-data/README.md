@@ -11,7 +11,7 @@ Day 1 (Tuesday, Jan 17, 2023, 13:00 – 15:00)
 ### Agenda
 1. Loading Parquet2 data into a DataFrames.jl data frame.
 2. Computation of summary statistics of data and creation of histograms.
-3. Analysis of text data using frequencty tables.
+3. Analysis of text data using frequency tables.
 4. Creation one-hot encoding variables and building linear model using them.
 5. Performing split-apply-combine operations on data frames.
 6. Analysis and visualization of mean values taking into account estimation uncertainty.

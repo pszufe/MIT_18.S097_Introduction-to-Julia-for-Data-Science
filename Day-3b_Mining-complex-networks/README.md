@@ -5,7 +5,7 @@ Day 3 (Thursday, Jan 19, 2023, 13:00 – 15:00)
 ### Teaching objectives:
 - Student will understand and know how to work with graph data in Julia.
 - Student will know how to do simple analysis of graph properties.
-- Student will leanr how to build a prediction model for node classification task.
+- Student will learn how to build a prediction model for node classification task.
 
 ### Agenda
 1. Understanding GitHub social network graph construction.
