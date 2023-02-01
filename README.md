@@ -34,14 +34,14 @@ notebook(dir=".")
 **Schedule** (all times are EST time zone)
 
 <table>
-<tr><td><b>Day 1 (Tuesday, Jan 17, 2023)</b></td><td>11am-12:30</td><td>Your first steps with Julia</td></tr>
-<tr><td>&nbsp;</td><td>1pm-3pm</td><td>Working with tabular data</td></tr>
-<tr><td><b>Day 2 (Wednesday, Jan 18, 2023)</b></td><td>11am-12:30</td><td>Classical predictive models</td></tr>
-<tr><td>&nbsp;</td><td>1pm-3pm</td><td>Advanced predictive models using machine learning</td></tr>
-<tr><td><b>Day 3 (Thursday, Jan 19, 2023)</b></td><td>11am-12:30</td><td>Solving optimization problems </td></tr>
-<tr><td>&nbsp;</td><td>1pm-3pm</td><td>Mining complex networks</td></tr>
-<tr><td><b>Day 4 (Friday, Jan 20, 2023)</b></td><td>11am-12:30</td><td>Deployment in production environments</td></tr>
-<tr><td>&nbsp;</td><td>1pm-3pm</td><td>Scaling computations using parallel computing</td></tr>
+<tr><td><b>Day 1 (Tuesday, Jan 17, 2023)</b></td><td>11am-12:30</td><td>Your first steps with Julia</td><td>https://youtu.be/q7r-7oojBtA</td></tr>
+<tr><td>&nbsp;</td><td>1pm-3pm</td><td>Working with tabular data</td><td>https://youtu.be/GgTuDTcTjkg</td></tr>
+<tr><td><b>Day 2 (Wednesday, Jan 18, 2023)</b></td><td>11am-12:30</td><td>Classical predictive models</td><td>https://youtu.be/vBO_aa_dtnk</td></tr>
+<tr><td>&nbsp;</td><td>1pm-3pm</td><td>Advanced predictive models using machine learning</td><td>https://youtu.be/rezqaRLdhIw</td></tr>
+<tr><td><b>Day 3 (Thursday, Jan 19, 2023)</b></td><td>11am-12:30</td><td>Solving optimization problems </td><td>https://youtu.be/h4UsS2BtDrU</td></tr>
+<tr><td>&nbsp;</td><td>1pm-3pm</td><td>Mining complex networks</td><td>https://youtu.be/CHvE3DZ1SLM</td></tr>
+<tr><td><b>Day 4 (Friday, Jan 20, 2023)</b></td><td>11am-12:30</td><td>Deployment in production environments</td><td>https://youtu.be/Kc4ecfM6t88</td></tr>
+<tr><td>&nbsp;</td><td>1pm-3pm</td><td>Scaling computations using parallel computing</td><td>https://youtu.be/5j0bV2B4Pp8</td></tr>
 </table>
 
 
